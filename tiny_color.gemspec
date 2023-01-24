@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "tiny_color"
-  s.version     = "1.0.0"
+  s.version     = "1.1.0"
   s.description = "a tiny library for String colorization"
   s.summary     = "this is a minimalist library for colorinzing Strings, via extending the String class"
   s.authors     = ["Jeff Lunt"]

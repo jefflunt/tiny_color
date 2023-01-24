@@ -20,6 +20,9 @@ class String
     black:          30,
     light_black:    90,
 
+    grey:           90,
+    gray:           90,
+
     red:            31,
     light_red:      91,
 
