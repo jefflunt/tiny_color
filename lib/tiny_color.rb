@@ -5,7 +5,7 @@
 #   puts 'Hi'.green + ' there!'
 #
 #   "Hi there!"                             # where 'Hi' will appear in green,
-#                                           # and the rest in your # default
+#                                           # and the rest in your default #
 #                                           # terminal color
 #
 # you can also add background colors:
