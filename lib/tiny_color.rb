@@ -23,6 +23,7 @@ class String
     purple:         35,
     cyan:           36,
     white:          37,
+    default:        39,
     light_black:    90,
     light_red:      91,
     light_green:    92,
@@ -63,14 +64,6 @@ class String
     define_method "on_#{color}" do
       "\033[#{value + 10}m#{self}\033[0m"
     end
-  end
-
-  def default
-    "\033[39m#{self}\033[0m"
-  end
-
-  def on_default
-    "\033[49m#{self}\033[0m"
   end
 
   MODES.each do |mode, value|
