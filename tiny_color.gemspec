@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name        = "tiny_color"
-  s.version     = "1.3.1"
-  s.description = "a tiny library for String colorization"
-  s.summary     = "this is a minimalist library for adding color to Strings by extending the String class"
+  s.version     = "1.3.2"
+  s.description = "a tiny library for command-line String colorization and formatting (bold, underline, etc.)"
+  s.summary     = "a tiny library for command-line String colorization and formatting (bold, underline, etc.)"
   s.authors     = ["Jeff Lunt"]
   s.email       = "jefflunt@gmail.com"
   s.files       = ["lib/tiny_color.rb"]
